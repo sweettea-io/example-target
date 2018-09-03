@@ -1,0 +1,6 @@
+training:
+  buildpack: python-train
+  train: src.model:train
+  model:
+    path: data/models/model.ckpt
+    upload_criteria: always
