@@ -13,3 +13,7 @@ def train():
   sleep(1)
 
   print('Done training.')
+
+
+def predict():
+  return 'prediction'
