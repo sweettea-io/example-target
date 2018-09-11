@@ -6,6 +6,6 @@ training:
     upload_criteria: always
 hosting:
   buildpack: python-websocket-api
-  predict: src.model.predict
+  predict: src.model:predict
   model:
     path: data/models/model.ckpt
