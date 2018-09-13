@@ -15,5 +15,5 @@ def train():
   print('Done training.')
 
 
-def predict():
+def predict(data):
   return 'prediction'
